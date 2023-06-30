@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>impots</title>
+</head>
+
+<body>
+    <h1>statut imposable ou non</h1>
+    <form method="post">
+        <p>
+            <label for="genre">homme</label>
+            <input type="radio" id="homme" name="genre" aria-label="homme"  value=>"homme">
+        </p>
+        <p>
+            <label for="genre">femme</label>
+            <input type="radio" id="femme" name="genre" aria-label="femme"  value="femme">
+        </p>
+        <p>
+            <label for="age">entrer votre Age : </label>
+            <input type="number" id="age" name="age" value="age">
+        </p>
+        <input type="submit" value="Ok">
+    </form>
+    <hr>
+    <h3>Votre STATUT est de <%=statut%></h3>
+</body>
+
+</html>
